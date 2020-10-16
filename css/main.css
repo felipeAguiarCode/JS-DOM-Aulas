@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: Helvetica,sans-serif;
+}
+
+body{
+    background-color: #F9F9F9;
+}
+
+#app{
+    height: 100vh;
+    width: 100%;
+}
+
+.app-container{
+    border:1px solid rgb(196, 195, 195);
+    width: 60%;
+    height: 100%;
+    margin:0 auto;
+    background-color: white;
+}
+
+#task-title{
+    text-align: center;
+    padding: 5px;
+}
+
+#add-button{
+    margin: 10px 5px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#add-button span{
+    color:blue;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+#add-button p{
+    font-weight: bold;
+}
+
+#add-button:hover{
+    background-color: rgb(199, 199, 199);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.note-line{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.note-line input[type="text"]{
+    width: 70%;
+    border:none;
+    border-bottom: 1px solid grey;
+}
